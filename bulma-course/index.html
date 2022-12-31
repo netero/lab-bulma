@@ -60,7 +60,25 @@
     <section class="section">
         <div class="container">
             <div class="columns is-8 is-variable">
-                <div class="column is-7-tablet">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ad unde impedit illum aut eaque! Sunt cumque excepturi ipsum quas in possimus delectus at fuga, ab consectetur corporis quod earum.</div>
+                <div class="column is-7-tablet">
+                    <!--Tabbed content-->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li data-target="product-details" class="is-active"><a>Products Details</a></li>
+                            <li data-target="delivery-information"><a>Delivery Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5-title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aspernatur modi vel incidunt voluptatem animi eveniet, iusto vitae non. Sit harum recusandae qui doloremque quisquam praesentium quam blanditiis impedit voluptates!</p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5-title">Delivery Information</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aspernatur modi vel incidunt voluptatem animi eveniet, iusto vitae non. Sit harum recusandae qui doloremque quisquam praesentium quam blanditiis impedit voluptates!</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="column is-5-tablet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam provident accusamus modi deleniti velit veritatis, fugit fugiat quaerat magni reiciendis possimus perferendis voluptatibus ad in. Nisi fuga dignissimos tempore.</div>
             </div>
         </div>
