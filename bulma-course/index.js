@@ -25,4 +25,15 @@ tabs.forEach((tab)=>{
             }
         });
     });
-})
+});
+
+
+//modal
+const modal = document.querySelector('.modal');
+document.getElementById('btnSignUp').addEventListener('click',()=>{
+    modal.classList.add('is-active');
+});
+
+modal.querySelector('.modal-background').addEventListener('click',()=>{
+    modal.classList.remove('is-active');
+});
